@@ -76,6 +76,7 @@ color: var(--black-main);
 
     left: 50%;
     transform: translateX(-50%);
+    opacity: 0;
 
     text-decoration: none;
     color: var(--black-main);
@@ -108,8 +109,9 @@ color: var(--black-main);
     font-size: 22vw;
     top: 49%;
     left: 50%;
-    transform: translate(-50%, -50%);
     color: #ececec;
+    transform: translate(-50%, -100%);
+    opacity: 0;
 }
 
 .name h2 {
@@ -122,7 +124,9 @@ color: var(--black-main);
 
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
+
+    opacity: 0;
 }
 
 .name h3 {
@@ -135,7 +139,13 @@ color: var(--black-main);
     margin-top: 2rem;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -50%);
+
+    opacity: 0;
+}
+
+.mask {
+    overflow: hidden;
 }
 
 /* raster-bg */
@@ -219,6 +229,7 @@ color: var(--black-main);
     width: 260px;
     height: 100px;
     background-color: #4cdf58;
+    color: var(--black-main);
     border-radius: 25px;
 
     -webkit-animation-name: emojis-fall, emojis-shake;
