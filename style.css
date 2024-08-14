@@ -20,6 +20,9 @@
 
     --blue-first: #9eccd8;
     --blue-second: #77aabc;
+
+    --yellow-first: #faee3b;
+    --green-first: #4cdf58;
 }
 
 html, body {
@@ -94,6 +97,16 @@ color: var(--black-main);
     color: var(--bg-color);
 }
 
+/* preload */
+section.preload {
+    position: fixed;
+    display: none;
+
+    height: 100vh;
+    width: 100vw;
+
+    z-index: 2000;
+}
 /* name */
 
 .name {
