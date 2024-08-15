@@ -299,6 +299,7 @@ section.preload {
     line-height: 1.1rem;
     color: var(--black-main);
     margin-top: 25px;
+    text-decoration: none;
 }
 
 .emoji img {
