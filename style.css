@@ -134,6 +134,7 @@ section.preload {
     font-weight: 600;
     color: var(--black-main);
     text-align: center;
+    width: 100%;
 
     top: 50%;
     left: 50%;
@@ -150,6 +151,8 @@ section.preload {
     color: var(--black-main);
     text-align: center;
     margin-top: 2rem;
+    width: 100%;
+
     top: 50%;
     left: 50%;
     transform: translate(-70%, -50%);
@@ -246,7 +249,7 @@ section.preload {
     border-radius: 25px;
 
     -webkit-animation-name: emojis-fall, emojis-shake;
-    -webkit-animation-duration: 7s, 3s;
+    -webkit-animation-duration: 10s, 3s;
     -webkit-animation-timing-function: linear, ease-in-out;
     -webkit-animation-iteration-count: infinite, infinite;
     -webkit-animation-play-state: running, running;
@@ -286,7 +289,7 @@ section.preload {
     bottom: 18px;
 }
 
-.rain span {
+.school a {
     position: relative;
     display: block;
 
@@ -379,6 +382,30 @@ section.preload {
     }
 }
 
+/* responsiveee */
 
+
+@media screen and (max-width: 768px) {
+    .name h2, .name h3 {
+        top: 49%;
+    }
+
+    .school {
+        left: 50%;
+        animation-duration: 13s, 3s;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .name h2, .name h3 {
+        top: 48%;
+        font-size: 1.7rem;
+    }
+
+    .school {
+        left: 20%;
+        animation-duration: 13s, 3s;
+    }
+}
 
 
