@@ -402,6 +402,10 @@ section.preload {
         font-size: 1.7rem;
     }
 
+    .name h3 {
+        top: 47%;
+    }
+
     .school {
         left: 20%;
         animation-duration: 13s, 3s;
