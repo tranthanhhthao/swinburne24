@@ -54,21 +54,21 @@ buttonContact.addEventListener('click', () => {
 
 });
 
-// buttonProjects.addEventListener('click', () => {
-//     gsap.set('.preload', {
-//         y: '100%',
-//         backgroundColor: getComputedStyle(document.body).getPropertyValue('--green-first'),
-//     })
+buttonProjects.addEventListener('click', () => {
+    gsap.set('.preload', {
+        y: '100%',
+        backgroundColor: getComputedStyle(document.body).getPropertyValue('--blue-bg'),
+    })
 
-//     preloaderTl
-//         .to('.preload', {
-//             y: '0%',
-//             duration: 2,
-//             display: 'block',
-//             ease: 'elastic.out(1, 0.5)',
-//             delay: 0.3,
-//         })
+    preloaderTl
+        .to('.preload', {
+            y: '0%',
+            duration: 2,
+            display: 'block',
+            ease: 'elastic.out(1, 0.5)',
+            delay: 0.3,
+        })
     
-
-// });    
+    delayToLink('https://tranthanhhthao.github.io/swinburne-projects/')
+});    
 
