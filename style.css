@@ -395,6 +395,10 @@ section.preload {
         left: 50%;
         animation-duration: 13s, 3s;
     }
+
+    .emoji {
+        bottom: -20%
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -410,6 +414,10 @@ section.preload {
     .school {
         left: 20%;
         animation-duration: 13s, 3s;
+    }
+
+    .emoji {
+        bottom: -20%
     }
 }
 
